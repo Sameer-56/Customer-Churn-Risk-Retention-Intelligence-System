@@ -1,0 +1,67 @@
+# ====================================================================
+# .gitignore for Customer Churn Risk & Retention Intelligence System
+# ====================================================================
+
+# 1. Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.dll
+*.so
+*.dylib
+
+# 2. Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+D:/venv/
+d:/venv/
+
+# 3. Streamlit & Web App Local Artifacts
+.streamlit/secrets.toml
+.streamlit/cache/
+.streamlit/runtime/
+
+# 4. Large Datasets & Exported Cohort Files
+# Note: Uncomment data.csv if data is tracked via Git LFS, DVC, or cloud storage
+# data.csv
+churn_risk_customer_cohort*.csv
+*.tmp
+*.temp
+
+# 5. Serialized Models & Cache Checkpoints
+*.pkl
+*.pickle
+*.joblib
+
+# 6. Jupyter Notebook & Testing Checkpoints
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 7. IDE & Text Editor Configuration
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# 8. Operating System Specific Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# 9. Logs & Runtime Diagnostics
+*.log
